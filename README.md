@@ -1,5 +1,9 @@
 # Preprocess
 
+This project shows how you can use a BehaviorSubject to preprocess long-running API calls so that the data is available when the user arrives at the page that needs the data.
+
+See my [blog](http://dev-reboot.com/preprocess-API-calls) for an explanation.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
 
 ## Development server
