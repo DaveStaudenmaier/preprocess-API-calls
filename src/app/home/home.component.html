@@ -1,0 +1,16 @@
+<div class="mat-app-background mat-body-1 container">
+  <p class="mat-title">Home</p>
+
+  <p>Two long-running server calls (3 seconds and 6 seconds) were started when this app was launched
+    in order to get the data needed for the View page.
+  </p>
+  <p>If you go to the View page before 3 seconds, you will see the default value,
+    until the first response is received at the 3 second mark.</p>
+  <p>If you go to the View page between 3 and 6 seconds, you will only see the response value
+    from the first call but not the second.
+  </p>
+  <p>If you go to the View page after 6 seconds, you will only see the complete data set.</p>
+  <p>Refresh the page in your browser to restart.</p>
+  <button mat-raised-button class="mat-primary" (click)="onClick()">View</button>
+</div>
+
